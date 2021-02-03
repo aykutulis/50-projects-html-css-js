@@ -1,4 +1,4 @@
-> 50 Projects built with HTML, CSS & Javascript
+# 50 Projects built with HTML, CSS & Javascript
 
 ## Demo Links
 
