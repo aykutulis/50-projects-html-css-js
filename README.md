@@ -2,7 +2,8 @@
 
 ## Demo Links
 
-| #   | Project                                                                                                             | Live Demo                                                                                                   |
-| --- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| 01  | [Expanding Cards](https://github.com/aykutulis/50-projects-html-css-js/tree/master/Day%201%20-%20Expanding%20Cards) | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/Day%201%20-%20Expanding%20Cards/index.html) |
-| 02  | [Progress Steps](https://github.com/aykutulis/50-projects-html-css-js/tree/master/Day%202%20-%20Progress%20Steps)   | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/Day%202%20-%20Progress%20Steps/index.html)  |
+| #   | Project                                                                                                        | Live Demo                                                                                          |
+| --- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| 01  | [Expanding Cards](https://github.com/aykutulis/50-projects-html-css-js/tree/master/01-expanding-cards)         | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/01-expanding-cards/index.html)     |
+| 02  | [Progress Steps](https://github.com/aykutulis/50-projects-html-css-js/tree/master/02-progress-steps)           | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/02-progress-steps/index.html)      |
+| 03  | [Rotating Navigation](https://github.com/aykutulis/50-projects-html-css-js/tree/master/03-rotating-navigation) | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/03-rotating-navigation/index.html) |
