@@ -9,3 +9,4 @@
 | 03  | [Rotating Navigation](https://github.com/aykutulis/50-projects-html-css-js/tree/master/03-rotating-navigation)   | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/03-rotating-navigation)  |
 | 04  | [Hidden Search Widget](https://github.com/aykutulis/50-projects-html-css-js/tree/master/04-hidden-search-widget) | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/04-hidden-search-widget) |
 | 05  | [Blurry Loading](https://github.com/aykutulis/50-projects-html-css-js/tree/master/05-blurry-loading)             | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/05-blurry-loading)       |
+| 06  | [Scroll Animation](https://github.com/aykutulis/50-projects-html-css-js/tree/master/06-scroll-animation)         | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/06-scroll-animation)     |
