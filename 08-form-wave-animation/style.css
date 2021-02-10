@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at 100%, rgb(21, 40, 56), rgb(136, 164, 187) 50%, #eee 75%, steelblue 75%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.25rem 1.5rem;
+  border-radius: 5px;
+  width: 380px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 1.9rem;
+}
+
+.container a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.container form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn {
+  cursor: pointer;
+  width: 100%;
+  background-color: lightblue;
+  padding: 1rem;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.form-control {
+  position: relative;
+  margin: 1.25rem 0 2.5rem;
+}
+
+.text {
+  margin-top: 1.9rem;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 1rem 0;
+  color: #fff;
+  transition: border-bottom-color 0.3s ease-in;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: lightblue;
+}
+
+.form-control label {
+  position: absolute;
+  top: 1.1rem;
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 1.1rem;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: lightblue;
+  transform: translateY(-2rem);
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+
+  .container {
+    width: 280px;
+  }
+}
