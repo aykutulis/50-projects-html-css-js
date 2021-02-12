@@ -13,3 +13,4 @@
 | 07  | [Split Landing Page](https://github.com/aykutulis/50-projects-html-css-js/tree/master/07-split-landing-page)     | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/07-split-landing-page)   |
 | 08  | [Form Wave Animation](https://github.com/aykutulis/50-projects-html-css-js/tree/master/08-form-wave-animation)   | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/08-form-wave-animation)  |
 | 09  | [Sound Board](https://github.com/aykutulis/50-projects-html-css-js/tree/master/09-sound-board)                   | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/09-sound-board)          |
+| 10  | [Dad Jokes](https://github.com/aykutulis/50-projects-html-css-js/tree/master/10-dad-jokes)                       | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/10-dad-jokes)            |
