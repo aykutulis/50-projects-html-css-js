@@ -16,3 +16,4 @@
 | 10  | [Dad Jokes](https://github.com/aykutulis/50-projects-html-css-js/tree/master/10-dad-jokes)                       | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/10-dad-jokes)            |
 | 11  | [Event KeyCodes](https://github.com/aykutulis/50-projects-html-css-js/tree/master/11-event-key-codes)            | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/11-event-key-codes)      |
 | 12  | [FAQ Collapse](https://github.com/aykutulis/50-projects-html-css-js/tree/master/12-faq-collapse)                 | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/12-faq-collapse)         |
+| 13  | [Random Choice Picker](https://github.com/aykutulis/50-projects-html-css-js/tree/master/13-random-choice-picker) | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/13-random-choice-picker) |
