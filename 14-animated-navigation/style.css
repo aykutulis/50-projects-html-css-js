@@ -52,7 +52,7 @@ nav.active ul {
 nav ul li {
   opacity: 0;
   transform: rotateY(0deg);
-  transition: transform, opacity 0.6s linear;
+  transition: transform 0.6s linear, opacity 0.6s linear;
 }
 
 nav.active ul li {
