@@ -19,3 +19,4 @@
 | 13  | [Random Choice Picker](https://github.com/aykutulis/50-projects-html-css-js/tree/master/13-random-choice-picker) | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/13-random-choice-picker)  |
 | 14  | [Animated Navigation](https://github.com/aykutulis/50-projects-html-css-js/tree/master/14-animated-navigation)   | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/14-animated-navigation)   |
 | 15  | [Incrementing Counter](https://github.com/aykutulis/50-projects-html-css-js/tree/master/15-incrementing-counter) | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/15-incrementing-counter/) |
+| 16  | [Drink Water](https://github.com/aykutulis/50-projects-html-css-js/tree/master/16-drink-water)                   | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/16-drink-water/)          |
