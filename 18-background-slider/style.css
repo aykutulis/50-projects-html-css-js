@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto Mono', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-size: cover;
+  background-position: center center;
+  transition: 0.4s ease;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1111;
+}
+
+.slider-container {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  height: 70vh;
+  width: 70vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  opacity: 0;
+  height: 100vh;
+  width: 100vw;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: -15vh;
+  left: -15vw;
+  transition: 0.4s ease;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.arrow {
+  position: fixed;
+  background-color: transparent;
+  color: #fff;
+  padding: 1.25rem;
+  font-size: 2rem;
+  border: 2px solid rgb(175, 115, 3);
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: center top;
+  cursor: pointer;
+  z-index: 55;
+  transition: background-color 0.3s ease;
+}
+
+.arrow:focus {
+  outline: 0;
+}
+
+.arrow:active {
+  transform: scale(0.98) translateY(-50%);
+}
+
+.arrow:hover {
+  background-color: rgba(245, 189, 86, 0.349);
+}
+
+.left-arrow {
+  left: calc(15vw - 4.45rem);
+  border-radius: 15px 0 0 15px;
+}
+
+.right-arrow {
+  right: calc(15vw - 4.45rem);
+  border-radius: 0 15px 15px 0;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 8px;
+  }
+}
