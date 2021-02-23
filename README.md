@@ -23,3 +23,4 @@
 | 17  | [Movie App](https://github.com/aykutulis/50-projects-html-css-js/tree/master/17-movie-app)                       | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/17-movie-app/index.html)            |
 | 18  | [Background Slider](https://github.com/aykutulis/50-projects-html-css-js/tree/master/18-background-slider)       | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/18-background-slider/index.html)    |
 | 19  | [Theme Clock](https://github.com/aykutulis/50-projects-html-css-js/tree/master/19-theme-clock)                   | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/19-theme-clock/index.html)          |
+| 20  | [Button Ripple Effect](https://github.com/aykutulis/50-projects-html-css-js/tree/master/20-button-ripple-effect) | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/20-button-ripple-effect/index.html) |
