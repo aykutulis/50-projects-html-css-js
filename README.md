@@ -27,3 +27,4 @@
 | 21  | [Drag N Drop](https://github.com/aykutulis/50-projects-html-css-js/tree/master/21-drag-n-drop)                   | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/21-drag-n-drop/index.html)          |
 | 22  | [Drawing App](https://github.com/aykutulis/50-projects-html-css-js/tree/master/22-drawing-app)                   | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/22-drawing-app/index.html)          |
 | 23  | [Kinetic CSS Loader](https://github.com/aykutulis/50-projects-html-css-js/tree/master/23-kinetic-css-loader)     | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/23-kinetic-css-loader/index.html)   |
+| 24  | [Content Placeholder](https://github.com/aykutulis/50-projects-html-css-js/tree/master/24-content-placeholder)   | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/24-content-placeholder/index.html)  |
