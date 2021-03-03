@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgba(53, 119, 243, 0.562);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: #fff;
+  color: rgb(53, 120, 243);
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.toasts {
+  position: fixed;
+  bottom: 0.6rem;
+  right: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.toast {
+  background-color: #fff;
+  color: rgb(53, 120, 243);
+  border-radius: 5px;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  animation: slide 0.3s ease;
+}
+
+.toast.info {
+  border-left: 4px solid #31d2f2;
+}
+
+.toast.success {
+  border-left: 4px solid #157347;
+}
+
+.toast.danger {
+  border-left: 4px solid #bb2d3b;
+}
+
+.toast.warning {
+  border-left: 4px solid #ffca2c;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(150%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
