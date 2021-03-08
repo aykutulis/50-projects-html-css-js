@@ -34,3 +34,4 @@
 | 28  | [Github Profiles](https://github.com/aykutulis/50-projects-html-css-js/tree/master/28-github-profiles)               | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/28-github-profiles/index.html)        |
 | 29  | [Double Heart Click](https://github.com/aykutulis/50-projects-html-css-js/tree/master/29-double-heart-click)         | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/29-double-heart-click/index.html)     |
 | 30  | [Auto Text Effect](https://github.com/aykutulis/50-projects-html-css-js/tree/master/30-auto-text-effect)             | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/30-auto-text-effect/index.html)       |
+| 31  | [Password Generator](https://github.com/aykutulis/50-projects-html-css-js/tree/master/31-password-generator)         | [Live Demo](https://aykutulis.github.io/50-projects-html-css-js/31-password-generator/index.html)     |
