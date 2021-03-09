@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin: 0.6rem 0;
+  width: 12.5rem;
+}
+
+.toggle {
+  visibility: hidden;
+}
+
+.label {
+  background-color: #d0d0d0;
+  border-radius: 3rem;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 1rem 0;
+  width: 5rem;
+  height: 2.5rem;
+  position: relative;
+  transition: background-color 0.2s linear;
+}
+
+.toggle:checked + .label {
+  background-color: #8e44ad;
+}
+
+.ball {
+  background-color: #fff;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.25rem;
+  left: 0.25rem;
+  animation: slideOff 0.3s linear forwards;
+}
+
+.toggle:checked + .label .ball {
+  animation: slideOn 0.3s linear forwards;
+}
+
+@keyframes slideOn {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+
+  50% {
+    transform: translateX(1.25rem) scale(1.2);
+  }
+
+  100% {
+    transform: translateX(2.5rem) scale(1);
+  }
+}
+
+@keyframes slideOff {
+  0% {
+    transform: translateX(2.5rem) scale(1);
+  }
+
+  50% {
+    transform: translateX(1.25rem) scale(1.2);
+  }
+
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 13px;
+  }
+}
