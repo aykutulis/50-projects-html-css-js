@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.magic {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9ca24;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  position: fixed;
+  top: 1.25rem;
+  letter-spacing: 1px;
+  box-shadow: 0 3px rgba(249, 202, 36, 0.5);
+  z-index: 555;
+  transition: background-color 0.3s ease;
+}
+
+.magic:focus {
+  outline: 0;
+}
+
+.magic:active {
+  box-shadow: none;
+  transform: translateY(2px);
+}
+
+.magic:hover {
+  background-color: #eebd0e;
+}
+
+.boxes {
+  width: 32rem;
+  height: 32rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transition: 0.4s ease;
+}
+
+.boxes.big {
+  width: 36rem;
+  height: 36rem;
+}
+
+.boxes.big .box {
+  transform: rotateZ(360deg);
+}
+
+.box {
+  background-image: url('https://i.pinimg.com/originals/a0/da/82/a0da82f44507403dcd724944a95e5010.gif');
+  background-repeat: no-repeat;
+  background-size: 32rem 32rem;
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+  transition: 0.4s ease;
+}
+
+.box::after {
+  content: '';
+  background-color: #f6e58d;
+  position: absolute;
+  top: 0.5rem;
+  right: -0.7rem;
+  height: 100%;
+  width: 0.7rem;
+  transform: skewY(40deg);
+}
+
+.box::before {
+  content: '';
+  background-color: #f9ca24;
+  position: absolute;
+  bottom: -0.7rem;
+  left: 0.5rem;
+  height: 0.7rem;
+  width: 100%;
+  transform: skewX(40deg);
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 9px;
+  }
+}
