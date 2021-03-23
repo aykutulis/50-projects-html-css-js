@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  border-radius: 0.25rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  max-width: 300px;
+  width: 90%;
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  display: inline-block;
+  margin: 0.3rem 0 1.25rem;
+  opacity: 0.8;
+}
+
+.header {
+  background-color: #3e57db;
+  color: #fff;
+  padding: 2rem 1.25rem;
+}
+
+.header input {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 3rem;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  width: 100%;
+}
+
+.header input:focus {
+  outline: 0;
+}
+
+.user-list {
+  background-color: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.user-list li {
+  display: flex;
+  padding: 1.25rem;
+}
+
+.user-list img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+}
+
+.user-list .user-info {
+  margin-left: 0.6rem;
+}
+
+.user-list .user-info h4 {
+  margin: 0 0 0.6rem;
+}
+
+.user-list .user-info p {
+  font-size: 0.75rem;
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.user-list li.hide {
+  display: none;
+}
